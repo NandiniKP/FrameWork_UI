@@ -1,0 +1,8 @@
+<suite name="Suite">
+    <test name="Test">
+        <classes>
+            <class name="org.example.Greenkart"></class>
+            <class name="org.example.HomePage"></class>
+        </classes>
+    </test>
+</suite>
