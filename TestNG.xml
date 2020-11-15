@@ -1,8 +1,20 @@
-<suite name="Suite">
-    <test name="Test">
+<suite name="Suite" parallel="tests">
+    <listeners>
+        <listener class-name="org.example.Listeners"></listener>
+    </listeners>
+    <test name="Greenkart">
         <classes>
             <class name="org.example.Greenkart"></class>
+        </classes>
+    </test>
+    <test name="HomePage">
+        <classes>
             <class name="org.example.HomePage"></class>
         </classes>
     </test>
+    <test name="Login">
+    <classes>
+        <class name="org.example.Login"></class>
+    </classes>
+</test>
 </suite>
